@@ -16,6 +16,14 @@ Agenda y mapa no oficiales del Congreso Chileno de Radiología 2026. Permite exp
 
 [Explorar la agenda](https://mi-ruta-sochiradi.pablo-aguirre-araya.workers.dev/) · [Ver el repositorio](https://github.com/pabloagar/mi-ruta-sochiradi)
 
+### IntraSight-ESI
+
+Proyecto de investigación retrospectiva con aprendizaje automático sobre diferencias de riesgo dentro de una misma categoría de triaje de urgencias, utilizando datos públicos NHAMCS. Desarrollado para la competencia Triagegeist, con auditoría de datos sintéticos, controles de fuga de información y una muestra de un año posterior reservada para evaluación.
+
+**Estado:** código y notebook de investigación públicos; sin validación clínica externa ni prospectiva. NHAMCS registra categorías IMMEDR, no asignaciones ESI confirmadas.
+
+[Ver el proyecto de investigación](https://github.com/pabloagar/triagegeist_competition) · [Explorar el notebook](https://www.kaggle.com/code/pabloaguirrearaya/intrasight-esi-v2)
+
 ### Paciente Cinco
 
 Prototipo de entrenamiento educativo con casos clínicos breves, decisiones y retroalimentación. Explora una forma de practicar el razonamiento clínico en sesiones de alrededor de cinco minutos, a ritmo del usuario.

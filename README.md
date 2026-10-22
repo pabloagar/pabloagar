@@ -16,6 +16,14 @@ An unofficial mobile web agenda and venue map for the 2026 Chilean Radiology Con
 
 [Explore the agenda](https://mi-ruta-sochiradi.pablo-aguirre-araya.workers.dev/) · [View the repository](https://github.com/pabloagar/mi-ruta-sochiradi)
 
+### IntraSight-ESI
+
+A retrospective machine learning research project investigating risk differences within the same emergency triage stratum, using public NHAMCS data. Built for the Triagegeist competition, with synthetic-data audits, leakage controls and a later-year holdout.
+
+**Status:** public research code and notebook; not externally or prospectively validated for clinical use. NHAMCS records IMMEDR categories rather than confirmed ESI assignments.
+
+[View the research project](https://github.com/pabloagar/triagegeist_competition) · [Explore the notebook](https://www.kaggle.com/code/pabloaguirrearaya/intrasight-esi-v2)
+
 ### Paciente Cinco
 
 An educational prototype built around short clinical cases, decisions and feedback. It explores a way to practice clinical reasoning in sessions of around five minutes, at the learner's own pace.
