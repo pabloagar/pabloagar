@@ -1,49 +1,57 @@
-# Hola, soy Pablo Aguirre Araya
+# Pablo Aguirre Araya
 
-[English](README.md) · **Español**
+[Read in English](README.md) · **Español**
 
-Soy médico general de zona en Arica, Chile. Diseño y desarrollo herramientas digitales a partir de problemas que encuentro en la práctica médica, la educación y la organización del trabajo en salud.
+**Médico en Chile que desarrolla herramientas digitales para salud.**
 
-Trabajo con apoyo de inteligencia artificial para convertir esas necesidades en prototipos que se puedan probar. Mi aporte reúne la definición del problema, el criterio clínico, las decisiones de diseño y la revisión de lo que se construye.
+Transformo necesidades de la práctica médica, la educación y el trabajo sanitario en prototipos funcionales. Combino contexto clínico, diseño de producto y desarrollo asistido por IA, y evalúo qué funciona y qué falta comprobar.
+
+[Contacto](mailto:pablo.aguirre.araya@gmail.com) · [Investigación](https://github.com/pabloagar/triagegeist_competition) · [Demo educativa](https://paciente-cinco-demo.pablo-aguirre.chatgpt.site)
 
 ## Proyectos destacados
 
-### Mi ruta SOCHIRADI
+[IntraSight-ESI · investigación](https://github.com/pabloagar/triagegeist_competition) · [Paciente Cinco · educación](https://github.com/pabloagar/paciente-cinco) · [SOCHIRADI · congreso](https://github.com/pabloagar/mi-ruta-sochiradi) · [Biblioteca de Salud Ambiental](https://github.com/pabloagar/biblioteca-salud-ambiental-web)
 
-Agenda y mapa no oficiales del Congreso Chileno de Radiología 2026. Permite explorar el programa, elegir actividades, detectar conflictos y conservar una ruta personal en el navegador.
+### 1. IntraSight-ESI · Investigación retrospectiva
 
-**Estado:** aplicación publicada, con uso registrado durante el congreso. Cloudflare Web Analytics muestra aproximadamente 140 visitas y 1.200 páginas vistas el 9 y 10 de octubre de 2026, con bots excluidos. Son estimaciones de tráfico, no personas únicas; incluyen navegación interna de la app.
+¿Tienen riesgos distintos los pacientes de un mismo estrato de triaje? Análisis público del NHAMCS con reserva temporal: **5,31× de enriquecimiento del desenlace** en el estrato principal. IMMEDR es una aproximación, no ESI confirmado; la validación clínica sigue pendiente.
 
-[Explorar la agenda](https://mi-ruta-sochiradi.pablo-aguirre-araya.workers.dev/) · [Ver el repositorio](https://github.com/pabloagar/mi-ruta-sochiradi)
+<a href="https://github.com/pabloagar/triagegeist_competition"><img src="assets/retrospective-validation.png" alt="Figura científica sin modificaciones que compara enriquecimiento retrospectivo y reserva de 2022" width="680"></a>
 
-### IntraSight-ESI
+*Figura original; las etiquetas ESI representan estratos IMMEDR del NHAMCS.*
 
-Proyecto de investigación retrospectiva con aprendizaje automático sobre diferencias de riesgo dentro de una misma categoría de triaje de urgencias, utilizando datos públicos NHAMCS. Desarrollado para la competencia Triagegeist, con auditoría de datos sintéticos, controles de fuga de información y una muestra de un año posterior reservada para evaluación.
+[Investigación y metodología](https://github.com/pabloagar/triagegeist_competition) · [Notebook](https://www.kaggle.com/code/pabloaguirrearaya/intrasight-esi-v2)
 
-**Estado:** código y notebook de investigación públicos; sin validación clínica externa ni prospectiva. NHAMCS registra categorías IMMEDR, no asignaciones ESI confirmadas.
+### 2. Paciente Cinco · Beta educativa
 
-[Ver el proyecto de investigación](https://github.com/pabloagar/triagegeist_competition) · [Explorar el notebook](https://www.kaggle.com/code/pabloaguirrearaya/intrasight-esi-v2)
+Casos interactivos breves, decisiones y retroalimentación para practicar razonamiento clínico. **Beta jugable** con progreso local; contenido de demostración pendiente de revisión clínica y sin evaluación de resultados educativos.
 
-### Paciente Cinco
+<a href="https://paciente-cinco-demo.pablo-aguirre.chatgpt.site"><img src="assets/paciente-cinco.webp" alt="Experiencia móvil de Paciente Cinco con una primera consulta guiada" width="280"></a>
 
-Prototipo de entrenamiento educativo con casos clínicos breves, decisiones y retroalimentación. Explora una forma de practicar el razonamiento clínico en sesiones de alrededor de cinco minutos, a ritmo del usuario.
+[Proyecto](https://github.com/pabloagar/paciente-cinco) · [Probar la demo](https://paciente-cinco-demo.pablo-aguirre.chatgpt.site)
 
-**Estado:** beta jugable; contenido de demostración pendiente de revisión clínica.
+### 3. Mi ruta SOCHIRADI · Herramienta desplegada
 
-[Jugar la demo](https://paciente-cinco-demo.pablo-aguirre.chatgpt.site)
+Agenda móvil no oficial para elegir entre sesiones simultáneas de un congreso y conservar un itinerario personal. Analítica histórica: aproximadamente **140 visitas / 1.200 páginas vistas**, el 9–10 de octubre de 2026. Visitas no equivale a personas únicas; las páginas vistas incluyen navegación interna.
 
-### Mapa cervical
+<a href="https://mi-ruta-sochiradi.pablo-aguirre-araya.workers.dev/"><img src="assets/mi-ruta-sochiradi.webp" alt="Itinerario personal del congreso con dos charlas seleccionadas en una pantalla móvil" width="280"></a>
 
-Editor gráfico para documentar hallazgos sobre un esquema anatómico cervical. Permite dibujar, añadir texto y flechas, editar las anotaciones, guardar un archivo editable e imprimir una hoja A4.
+[Proyecto y límites de la medición](https://github.com/pabloagar/mi-ruta-sochiradi) · [Explorar la agenda](https://mi-ruta-sochiradi.pablo-aguirre-araya.workers.dev/)
 
-**Estado:** prototipo funcional de documentación gráfica, pendiente de validación en el flujo de trabajo clínico.
+### 4. Biblioteca de Salud Ambiental · MVP público
 
-[Explorar el editor](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site)
+Encontrar recursos de salud ambiental por tema, formato y territorio chileno. **MVP público** con búsqueda, filtros y enlaces a fuentes originales; esta presentación se limita a la versión pública.
+
+<a href="https://biblioteca-salud-ambiental-chile-pablo.pablo-aguirre.chatgpt.site"><img src="assets/biblioteca-salud-ambiental.webp" alt="Portada móvil de la Biblioteca pública de Salud Ambiental de Chile" width="280"></a>
+
+[Proyecto](https://github.com/pabloagar/biblioteca-salud-ambiental-web) · [Explorar la Biblioteca](https://biblioteca-salud-ambiental-chile-pablo.pablo-aguirre.chatgpt.site)
+
+## Otras herramientas
+
+**[Mapa cervical](https://github.com/pabloagar/mapa-cervical)** — anotaciones editables de un esquema cervical y salida A4. Prototipo de documentación funcional, sin diagnóstico automático. [Probar](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site).
 
 ## Cómo trabajo
 
-Parto de una necesidad concreta, preparo una primera experiencia y reviso tanto su funcionamiento como sus límites. Distingo las pruebas del software de la validación clínica o educativa, y documento lo que todavía falta comprobar.
+Necesidad real → definición clínica y funcional → diseño → desarrollo asistido por IA → pruebas → evaluación.
 
-Me interesa conversar con profesionales de salud, educación, diseño y tecnología que quieran probar estas herramientas o colaborar en su evaluación.
-
-[Contacto por correo](mailto:pablo.aguirre.araya@gmail.com)
+Me interesa colaborar en salud, educación, diseño, investigación aplicada y hackatones. [Conversemos](mailto:pablo.aguirre.araya@gmail.com).
