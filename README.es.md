@@ -1,49 +1,64 @@
-# Hola, soy Pablo Aguirre Araya
+# Pablo Aguirre Araya
 
 [English](README.md) · **Español**
 
-Soy médico general de zona en Arica, Chile. Diseño y desarrollo herramientas digitales a partir de problemas que encuentro en la práctica médica, la educación y la organización del trabajo en salud.
+**Médico y desarrollador · Arica, Chile**
 
-Trabajo con apoyo de inteligencia artificial para convertir esas necesidades en prototipos que se puedan probar. Mi aporte reúne la definición del problema, el criterio clínico, las decisiones de diseño y la revisión de lo que se construye.
+Soy médico general de zona en Arica. Convierto necesidades de la práctica médica, la educación y la salud ambiental en herramientas que se puedan inspeccionar y probar.
+
+Mi trabajo reúne la definición clínica del problema, el diseño de producto e interfaz y el desarrollo iterativo apoyado por IA. Documento qué funciona, qué evidencia lo respalda y qué falta evaluar.
+
+[Contacto](mailto:pablo.aguirre.araya@gmail.com) · [Notebook de investigación](https://www.kaggle.com/code/pabloaguirrearaya/intrasight-esi-v2)
 
 ## Proyectos destacados
 
-### Mi ruta SOCHIRADI
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/pabloagar/triagegeist_competition/blob/main/README.es.md">IntraSight-ESI</a></h3>
+<a href="https://github.com/pabloagar/triagegeist_competition"><img src="assets/projects/intrasight.webp" alt="Figura original del notebook: enriquecimiento retrospectivo en estratos IMMEDR de NHAMCS" width="100%"></a>
+<p>Investigación retrospectiva con ML sobre riesgo dentro de un estrato de triaje. Notebook y resultados auditables.</p>
+<p><strong>Investigación · sin validación externa ni clínica. IMMEDR no es ESI confirmado.</strong></p>
+<p><a href="https://www.kaggle.com/code/pabloaguirrearaya/intrasight-esi-v2">Notebook</a> · <a href="https://github.com/pabloagar/triagegeist_competition/blob/main/README.es.md">Proyecto y límites</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/pabloagar/paciente-cinco/blob/main/README.es.md">Paciente Cinco</a></h3>
+<a href="https://github.com/pabloagar/paciente-cinco"><img src="assets/projects/paciente.webp" alt="Pantalla real de Paciente Cinco beta con aviso educativo y primer caso guiado" width="100%"></a>
+<p>Casos clínicos breves, decisiones y retroalimentación para practicar razonamiento clínico.</p>
+<p><strong>Beta educativa jugable · revisión clínica del contenido pendiente.</strong></p>
+<p><a href="https://paciente-cinco-demo.pablo-aguirre.chatgpt.site">Jugar demo</a> · <a href="https://github.com/pabloagar/paciente-cinco/blob/main/README.es.md">Proyecto y límites</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/pabloagar/mi-ruta-sochiradi/blob/main/README.es.md">Mi ruta SOCHIRADI</a></h3>
+<a href="https://github.com/pabloagar/mi-ruta-sochiradi"><img src="assets/projects/sochiradi.webp" alt="Programa real de Mi ruta SOCHIRADI organizado por salón" width="100%"></a>
+<p>Agenda no oficial del congreso con ruta personal, detección de solapamientos y mapa del recinto.</p>
+<p><strong>App publicada · congreso 2026 finalizado; visitas no equivalen a usuarios únicos.</strong></p>
+<p><a href="https://mi-ruta-sochiradi.pablo-aguirre-araya.workers.dev/">Explorar app</a> · <a href="https://github.com/pabloagar/mi-ruta-sochiradi/blob/main/README.es.md">Proyecto y límites</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/pabloagar/biblioteca-salud-ambiental-web">Biblioteca de Salud Ambiental</a></h3>
+<a href="https://github.com/pabloagar/biblioteca-salud-ambiental-web"><img src="assets/projects/biblioteca.webp" alt="MVP publicado real de Biblioteca con búsqueda de salud ambiental y categorías de recursos" width="100%"></a>
+<p>Recursos públicos de salud ambiental conectados por tema, territorio y fuente original.</p>
+<p><strong>MVP estático publicado · catálogo y fuentes originales disponibles.</strong></p>
+<p><a href="https://pabloagar.github.io/biblioteca-salud-ambiental-web/">Abrir biblioteca</a> · <a href="https://github.com/pabloagar/biblioteca-salud-ambiental-web">Proyecto y límites</a></p>
+</td>
+</tr>
+</table>
 
-Agenda y mapa no oficiales del Congreso Chileno de Radiología 2026. Permite explorar el programa, elegir actividades, detectar conflictos y conservar una ruta personal en el navegador.
+Capturas reales de las aplicaciones y una figura original de investigación. Las interfaces están en español. [Fuentes, fechas y vistas en tamaño completo](assets/projects/README.md).
 
-**Estado:** aplicación publicada, con uso registrado durante el congreso. Cloudflare Web Analytics muestra aproximadamente 140 visitas y 1.200 páginas vistas el 9 y 10 de octubre de 2026, con bots excluidos. Son estimaciones de tráfico, no personas únicas; incluyen navegación interna de la app.
+## Investigación que puedes inspeccionar
 
-[Explorar la agenda](https://mi-ruta-sochiradi.pablo-aguirre-araya.workers.dev/) · [Ver el repositorio](https://github.com/pabloagar/mi-ruta-sochiradi)
+IntraSight-ESI informa **5,31× de enriquecimiento del desenlace (intervalo bootstrap del 95 %: 3,36–7,30)** en la muestra reservada NHAMCS 2022, estrato IMMEDR 4, con un umbral congelado que señala el 6,2 % de los registros. Es un resultado retrospectivo y no ponderado dentro de ese conjunto de datos; no mide mejoras en desenlaces de pacientes, rendimiento en ESI confirmado ni rendimiento en Chile. [Métodos, resultados de desarrollo y límites](https://github.com/pabloagar/triagegeist_competition/blob/main/README.es.md#resultado-retrospectivo-principal).
 
-### IntraSight-ESI
+## También exploro
 
-Proyecto de investigación retrospectiva con aprendizaje automático sobre diferencias de riesgo dentro de una misma categoría de triaje de urgencias, utilizando datos públicos NHAMCS. Desarrollado para la competencia Triagegeist, con auditoría de datos sintéticos, controles de fuga de información y una muestra de un año posterior reservada para evaluación.
-
-**Estado:** código y notebook de investigación públicos; sin validación clínica externa ni prospectiva. NHAMCS registra categorías IMMEDR, no asignaciones ESI confirmadas.
-
-[Ver el proyecto de investigación](https://github.com/pabloagar/triagegeist_competition) · [Explorar el notebook](https://www.kaggle.com/code/pabloaguirrearaya/intrasight-esi-v2)
-
-### Paciente Cinco
-
-Prototipo de entrenamiento educativo con casos clínicos breves, decisiones y retroalimentación. Explora una forma de practicar el razonamiento clínico en sesiones de alrededor de cinco minutos, a ritmo del usuario.
-
-**Estado:** beta jugable; contenido de demostración pendiente de revisión clínica.
-
-[Jugar la demo](https://paciente-cinco-demo.pablo-aguirre.chatgpt.site)
-
-### Mapa cervical
-
-Editor gráfico para documentar hallazgos sobre un esquema anatómico cervical. Permite dibujar, añadir texto y flechas, editar las anotaciones, guardar un archivo editable e imprimir una hoja A4.
-
-**Estado:** prototipo funcional de documentación gráfica, pendiente de validación en el flujo de trabajo clínico.
-
-[Explorar el editor](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site)
+[Mapa cervical](https://github.com/pabloagar/mapa-cervical/blob/main/README.es.md) — esquema anatómico editable para anotación manual y salida A4. Prototipo funcional; siguen pendientes la evaluación del flujo clínico y los permisos del material anatómico. [Abrir demo con estudio vacío](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site).
 
 ## Cómo trabajo
 
-Parto de una necesidad concreta, preparo una primera experiencia y reviso tanto su funcionamiento como sus límites. Distingo las pruebas del software de la validación clínica o educativa, y documento lo que todavía falta comprobar.
+Parto de una necesidad concreta, construyo un prototipo utilizable y reviso su comportamiento y sus límites. Las comprobaciones de software, la validación clínica y los resultados educativos son evidencias diferentes.
 
-Me interesa conversar con profesionales de salud, educación, diseño y tecnología que quieran probar estas herramientas o colaborar en su evaluación.
-
-[Contacto por correo](mailto:pablo.aguirre.araya@gmail.com)
+Me interesa colaborar en herramientas de salud, educación médica, salud ambiental e investigación reproducible, incluidas su evaluación y las hackatones. [Conversemos](mailto:pablo.aguirre.araya@gmail.com).
