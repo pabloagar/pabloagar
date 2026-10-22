@@ -1,49 +1,64 @@
-# Hi, I'm Pablo Aguirre Araya
+# Pablo Aguirre Araya
 
 **English** · [Leer en español](README.es.md)
 
-I'm a physician in Chile's MGZ public service program, based in Arica. I design and build digital tools for needs I encounter in medical practice, education and the organization of healthcare work.
+**Physician & developer · Arica, Chile**
 
-I use AI-assisted development to turn those needs into working prototypes. My contribution combines problem definition, clinical context, product and interface decisions, and review of what gets built.
+I'm a physician in Chile's MGZ public service program. I turn needs from medical practice, education and environmental health into tools people can inspect and try.
+
+My work combines clinical problem framing, product and interface design, and iterative AI-assisted development. I document what works, what evidence supports it and what still needs evaluation.
+
+[Contact](mailto:pablo.aguirre.araya@gmail.com) · [Research notebook](https://www.kaggle.com/code/pabloaguirrearaya/intrasight-esi-v2)
 
 ## Featured projects
 
-### Mi ruta SOCHIRADI
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/pabloagar/triagegeist_competition">IntraSight-ESI</a></h3>
+<a href="https://github.com/pabloagar/triagegeist_competition"><img src="assets/projects/intrasight.webp" alt="Original notebook figure: retrospective enrichment across NHAMCS IMMEDR strata" width="100%"></a>
+<p>Retrospective ML research on risk within a triage stratum. Public notebook and auditable results.</p>
+<p><strong>Research · no external or clinical validation. IMMEDR is not confirmed ESI.</strong></p>
+<p><a href="https://www.kaggle.com/code/pabloaguirrearaya/intrasight-esi-v2">Notebook</a> · <a href="https://github.com/pabloagar/triagegeist_competition">Project and limits</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/pabloagar/paciente-cinco">Paciente Cinco</a></h3>
+<a href="https://github.com/pabloagar/paciente-cinco"><img src="assets/projects/paciente.webp" alt="Real Paciente Cinco beta screen with educational warning and first guided case" width="100%"></a>
+<p>Short clinical cases, decisions and feedback for practicing clinical reasoning.</p>
+<p><strong>Playable educational beta · clinical content review pending.</strong></p>
+<p><a href="https://paciente-cinco-demo.pablo-aguirre.chatgpt.site">Play demo</a> · <a href="https://github.com/pabloagar/paciente-cinco">Project and limits</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/pabloagar/mi-ruta-sochiradi">Mi ruta SOCHIRADI</a></h3>
+<a href="https://github.com/pabloagar/mi-ruta-sochiradi"><img src="assets/projects/sochiradi.webp" alt="Real Mi ruta SOCHIRADI conference program by room" width="100%"></a>
+<p>An unofficial conference agenda with a personal itinerary, overlap checks and venue map.</p>
+<p><strong>Published app · 2026 conference ended; recorded visits are not unique users.</strong></p>
+<p><a href="https://mi-ruta-sochiradi.pablo-aguirre-araya.workers.dev/">Explore app</a> · <a href="https://github.com/pabloagar/mi-ruta-sochiradi">Project and limits</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/pabloagar/biblioteca-salud-ambiental-web">Biblioteca de Salud Ambiental</a></h3>
+<a href="https://github.com/pabloagar/biblioteca-salud-ambiental-web"><img src="assets/projects/biblioteca.webp" alt="Real published Biblioteca MVP with environmental health search and resource categories" width="100%"></a>
+<p>Public environmental health resources connected by topic, territory and original source.</p>
+<p><strong>Published static MVP · catalog and original sources available.</strong></p>
+<p><a href="https://pabloagar.github.io/biblioteca-salud-ambiental-web/">Open library</a> · <a href="https://github.com/pabloagar/biblioteca-salud-ambiental-web">Project and limits</a></p>
+</td>
+</tr>
+</table>
 
-An unofficial mobile web agenda and venue map for the 2026 Chilean Radiology Congress. Attendees can explore the program, choose activities, spot scheduling conflicts and keep a personal itinerary in their browser.
+Real application captures and an original research figure. App interfaces are in Spanish. [Image sources, dates and full-size views](assets/projects/README.md).
 
-**Status:** deployed, with traffic recorded during the event. Cloudflare Web Analytics reported approximately 140 visits and 1,200 page views on October 9–10, 2026, with bot filtering enabled. These are historical traffic estimates, not unique people; page views include navigation within the app.
+## Research you can inspect
 
-[Explore the agenda](https://mi-ruta-sochiradi.pablo-aguirre-araya.workers.dev/) · [View the repository](https://github.com/pabloagar/mi-ruta-sochiradi)
+IntraSight-ESI reports **5.31× outcome enrichment (95% bootstrap interval 3.36–7.30)** in the NHAMCS 2022 holdout for IMMEDR stratum 4, with a frozen threshold flagging 6.2% of records. This is a retrospective, unweighted result within that dataset; it does not measure improved patient outcomes, confirmed ESI performance or performance in Chile. [Methods, development results and limitations](https://github.com/pabloagar/triagegeist_competition#main-retrospective-result).
 
-### IntraSight-ESI
+## Also exploring
 
-A retrospective machine learning research project investigating risk differences within the same emergency triage stratum, using public NHAMCS data. Built for the Triagegeist competition, with synthetic-data audits, leakage controls and a later-year holdout.
-
-**Status:** public research code and notebook; not externally or prospectively validated for clinical use. NHAMCS records IMMEDR categories rather than confirmed ESI assignments.
-
-[View the research project](https://github.com/pabloagar/triagegeist_competition) · [Explore the notebook](https://www.kaggle.com/code/pabloaguirrearaya/intrasight-esi-v2)
-
-### Paciente Cinco
-
-An educational prototype built around short clinical cases, decisions and feedback. It explores a way to practice clinical reasoning in sessions of around five minutes, at the learner's own pace.
-
-**Status:** playable beta; demonstration content awaits clinical review.
-
-[Play the demo](https://paciente-cinco-demo.pablo-aguirre.chatgpt.site)
-
-### Mapa cervical
-
-A graphical editor for annotating findings on a neck anatomy diagram. Users can draw, add text and arrows, edit annotations, save an editable study and prepare an A4 printout.
-
-**Status:** working documentation prototype, awaiting evaluation within a clinical workflow.
-
-[Explore the editor](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site)
+[Mapa cervical](https://github.com/pabloagar/mapa-cervical) — an editable anatomy diagram for manual annotations and A4 output. Working prototype; clinical workflow evaluation and anatomical asset permissions remain pending. [Open blank-study demo](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site).
 
 ## How I work
 
-I start with a concrete need, build an initial experience and examine both its behavior and its limitations. I distinguish software checks from clinical or educational validation, and document what still needs evaluation.
+Start with a concrete need, build a usable prototype and review its behavior and limits. Software checks, clinical validation and educational outcomes are separate kinds of evidence.
 
-I'm interested in meeting people working in healthcare, education, design and technology who would like to try these tools or collaborate on their evaluation, including through hackathons.
-
-[Get in touch](mailto:pablo.aguirre.araya@gmail.com)
+I'm interested in collaboration on health tools, medical education, environmental health and reproducible research, including evaluation and hackathons. [Get in touch](mailto:pablo.aguirre.araya@gmail.com).
