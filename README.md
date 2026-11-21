@@ -10,9 +10,11 @@ I use AI-assisted development to turn those needs into working prototypes. My co
 
 ### Libro PADDS
 
-After a home visit, another member of the primary care team may need to carry out an order. Libro PADDS lets the team assign it, notify the person responsible and follow it from a computer. On November 19, 2026, the team tested that handoff with a fictional wound-care task.
+Before home visits begin, the primary care team assigns patients to each professional and sets the order of visits. In **Mi ruta** (My route), each professional can see their patients for the day on their phone and open a visit to check the home address and reason for the visit. During the visit, they can assign a follow-up task and the team can track it. In November 2026, the team tested this handoff with a fictional wound-care task.
 
-[Follow the pilot](https://github.com/pabloagar/libro-padds-ficha)
+<img src="https://raw.githubusercontent.com/pabloagar/libro-padds-ficha/main/capturas/mi-ruta-celular.png" alt="My route on a phone with two fictional home visits and the first patient's address visible" width="265">
+
+[See the home visit workflow](https://github.com/pabloagar/libro-padds-ficha)
 
 ### dicta
 

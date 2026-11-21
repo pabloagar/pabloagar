@@ -10,9 +10,11 @@ Trabajo con apoyo de inteligencia artificial para convertir esas necesidades en 
 
 ### Libro PADDS
 
-Después de una visita domiciliaria, otro integrante del equipo puede quedar a cargo de una indicación. Libro PADDS permite asignarla, avisar al responsable y seguirla desde el computador. El 19 de noviembre de 2026, el equipo probó ese recorrido con una curación ficticia.
+Antes de salir a terreno, el equipo de atención primaria asigna los pacientes a cada profesional y ordena las visitas del día. En **Mi ruta**, cada profesional ve en el celular a quién le toca visitar y puede abrir la visita para consultar el domicilio y el motivo de la atención. También puede dejar un encargo para que el equipo le dé seguimiento. En noviembre de 2026 probamos ese relevo con una curación ficticia.
 
-[Ver el recorrido de una indicación](https://github.com/pabloagar/libro-padds-ficha)
+<img src="https://raw.githubusercontent.com/pabloagar/libro-padds-ficha/main/capturas/mi-ruta-celular.png" alt="Mi ruta en el celular con dos visitas ficticias y el domicilio de la primera paciente a la vista" width="265">
+
+[Ver cómo se organiza una ruta domiciliaria](https://github.com/pabloagar/libro-padds-ficha)
 
 ### dicta
 
