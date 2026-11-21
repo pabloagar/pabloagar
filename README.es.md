@@ -8,6 +8,30 @@ Trabajo con apoyo de inteligencia artificial para convertir esas necesidades en 
 
 ## Proyectos destacados
 
+### Libro PADDS
+
+Después de una visita domiciliaria, otro integrante del equipo puede quedar a cargo de una indicación. Libro PADDS permite asignarla, avisar al responsable y seguirla desde el computador. El 19 de noviembre de 2026, el equipo probó ese recorrido con una curación ficticia.
+
+[Ver el recorrido de una indicación](https://github.com/pabloagar/libro-padds-ficha)
+
+### dicta
+
+Desarrollé un piloto de dictado radiológico que usa el celular como micrófono. Su laboratorio permite comparar qué transcribe cada motor al escuchar la misma grabación en español, incluidos los números y los comandos de voz.
+
+[Explorar el laboratorio de dictado](https://github.com/pabloagar/dictalibre-meta)
+
+### Biblioteca Digital de Salud Ambiental de Chile
+
+Biblioteca que reúne recursos de salud ambiental, consultas por territorio e información sobre calidad del aire en Chile. El inventario editorial de septiembre de 2026 registró 525 fichas públicas.
+
+[Explorar la biblioteca](https://github.com/pabloagar/biblioteca-salud-ambiental-web)
+
+### Analizador Institucional SAPU
+
+Herramienta sin conexión para revisar turnos de urgencia en atención primaria y preparar informes. La ficha sigue una guardia que cruza de un mes al siguiente. La evaluación técnica documentó 17 casos del motor de horas con datos sintéticos.
+
+[Ver el ejemplo de turnos](https://github.com/pabloagar/analizador-sapu-ficha)
+
 ### Mi ruta SOCHIRADI
 
 Agenda y mapa no oficiales del Congreso Chileno de Radiología 2026. Permite explorar el programa, elegir actividades, detectar conflictos y conservar una ruta personal en el navegador.
@@ -23,6 +47,8 @@ Proyecto de investigación retrospectiva con aprendizaje automático sobre difer
 **Estado:** código y notebook de investigación públicos; sin validación clínica externa ni prospectiva. NHAMCS registra categorías IMMEDR, no asignaciones ESI confirmadas.
 
 [Ver el proyecto de investigación](https://github.com/pabloagar/triagegeist_competition) · [Explorar el notebook](https://www.kaggle.com/code/pabloaguirrearaya/intrasight-esi-v2)
+
+## Otras demos
 
 ### Paciente Cinco
 

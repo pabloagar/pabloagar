@@ -8,6 +8,30 @@ I use AI-assisted development to turn those needs into working prototypes. My co
 
 ## Featured projects
 
+### Libro PADDS
+
+After a home visit, another member of the primary care team may need to carry out an order. Libro PADDS lets the team assign it, notify the person responsible and follow it from a computer. On November 19, 2026, the team tested that handoff with a fictional wound-care task.
+
+[Follow the pilot](https://github.com/pabloagar/libro-padds-ficha)
+
+### dicta
+
+I built a radiology dictation pilot that uses a phone as a microphone. Its comparison lab lets me examine how speech recognition engines handle the same Spanish recording, including numbers and spoken commands.
+
+[Explore the dictation lab](https://github.com/pabloagar/dictalibre-meta)
+
+### Biblioteca Digital de Salud Ambiental de Chile
+
+An environmental health library for Chile that connects curated resources, territorial views and air quality information. The September 2026 editorial inventory recorded 525 public resource entries.
+
+[Explore the library](https://github.com/pabloagar/biblioteca-salud-ambiental-web)
+
+### Analizador Institucional SAPU
+
+An offline tool for reviewing urgent primary care shifts and preparing reports. A worked example follows a shift across a month boundary. The documented technical evaluation covered 17 time-calculation cases using synthetic data.
+
+[See the worked example](https://github.com/pabloagar/analizador-sapu-ficha)
+
 ### Mi ruta SOCHIRADI
 
 An unofficial mobile web agenda and venue map for the 2026 Chilean Radiology Congress. Attendees can explore the program, choose activities, spot scheduling conflicts and keep a personal itinerary in their browser.
@@ -23,6 +47,8 @@ A retrospective machine learning research project investigating risk differences
 **Status:** public research code and notebook; not externally or prospectively validated for clinical use. NHAMCS records IMMEDR categories rather than confirmed ESI assignments.
 
 [View the research project](https://github.com/pabloagar/triagegeist_competition) · [Explore the notebook](https://www.kaggle.com/code/pabloaguirrearaya/intrasight-esi-v2)
+
+## Other demos
 
 ### Paciente Cinco
 
